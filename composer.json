@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Product_sort_by_webline",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Product sort by webline extenstion",
+    "authors": [
+    {
+        "name": "Atul Mehta",
+        "email": "partners@weblineindia.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

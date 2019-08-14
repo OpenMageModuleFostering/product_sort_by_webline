@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Product_sort_by_webline</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Product sort by webline extenstion</summary>
+    <description>Product sort by webline, is a Magento extension. We've created the Product sort extension to order catalog by custom order with magento default odering. Apply our custom sort order, when products have same order in selected option. With using this extension you can create your own order to each product. This extension mainly usefull to add second level sort order to catalog products.</description>
+    <notes>Product sort by webline extenstion</notes>
+    <authors><author><name>Atul Mehta</name><user>webline</user><email>partners@weblineindia.com</email></author></authors>
+    <date>2015-09-22</date>
+    <time>09:59:39</time>
+    <contents><target name="magelocal"><dir name="Wli"><dir name="Productsortbywebline"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Product"><file name="Grid.php" hash="0a86bf3a1af58ef1380bfc27a18425dc"/></dir></dir></dir><dir name="Catalog"><dir name="Product"><dir name="List"><file name="Toolbar.php" hash="cf47aeee95b250fea4cdb86b862af197"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="cc02f2e2bb0b93d8c7456fc3f5dc57a2"/></dir><dir name="sql"><dir name="productsortbywebline_setup"><file name="mysql4-install-0.1.0.php" hash="cb0bfbaf369a9f3e989d5b029e9b363b"/></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Wli_Productsortbywebline.xml" hash="2b3b056b8b0540244ae0a37c461730da"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

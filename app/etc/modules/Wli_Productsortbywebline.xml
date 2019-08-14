@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Webline Magento
+ *
+ * @category   Wli
+ * @package    Wli_Productsortbywebline
+ * @author     Webline Magento Team
+ */
+-->
+<config>
+    <modules>
+        <Wli_Productsortbywebline>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+               	<Mage_Catalog />
+                <Mage_Adminhtml />
+             </depends>
+        </Wli_Productsortbywebline>
+    </modules>
+</config>
